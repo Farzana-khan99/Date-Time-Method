@@ -108,8 +108,6 @@ console.log(`Its ${result}`)
 // laterDate.
 
 
-
-
 // Dec 3 4:52 pm
 let nowDate = new Date()
 let monthsName = ["Jan" , "Feb" , "Mar" , "Apr" , "May" , "Jun" , "July" , "Aug" , "Sept" , "Oct" , "Nov" , "Dec"]
@@ -123,6 +121,19 @@ h = h -12;
 
 console.log(`${ShowMonth} ${day} ${h}:${m} ${output}`)
 
+// 13. Write a program to ask the user about his age. Calculate
+// and show his birth year in your browser.
+
+
+let DOB = 1994
+let now = new Date ()
+let CurrYear  = now.getFullYear()
+console.log(CurrYear) 
+let Age = CurrYear- DOB
+console.log(Age)
+console.log(`your age is  ${Age}
+your birth year is 1994`)
+
 // three variable 1,6 ,  7 12 ,  13, 15 tk hay
 
 let numvar = [1, 2,3, 4, 5 , 6 ,7, 8 , 9 ,10 ,11 , 12 , 13 ,14 ,15]
@@ -133,3 +144,5 @@ let personTwo =numvar.slice(6,  12)
 console.log(personTwo)
 let personThree = numvar.slice(12)
 console.log(personThree)
+
+
